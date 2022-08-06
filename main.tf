@@ -92,7 +92,3 @@ resource "aws_instance" "httpd_pub" {
            	    echo "<h4> Infrastructure Deployed Sucessfully </h4>" > /var/www/html/index.html
                 EOF
 
-  tags = {
-    Name = "httpd_pub"
-  }
-}
