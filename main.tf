@@ -96,3 +96,10 @@ resource "aws_instance" "httpd_pub" {
     Name = "httpd_pub"
   }
 }
+
+
+
+
+
+
+
